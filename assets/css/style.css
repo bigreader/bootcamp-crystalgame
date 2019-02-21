@@ -1,0 +1,19 @@
+p {
+	margin-bottom: 0;
+}
+
+p.label {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.75em;
+	margin-bottom: -0.5em;
+	color: #9a9c9f;
+}
+
+#out-wins {
+	color: #3e6;
+}
+
+#out-losses {
+	color: #e36;
+}

@@ -7,11 +7,52 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
-	<title>Hangman</title>
+	<title>Crystal Game - Josh Dudley</title>
 </head>
-<body>
+<body class="bg-dark text-light">
 
-	<div class="container">
+	<div class="container text-center">
+
+		<div class="row xd-none xd-sm-flex">
+			<div class="col">
+				<h1 class="my-3 my-sm-4 my-lg-5">Crystal Collector</h1>
+			</div>
+		</div>
+
+		<div class="row align-items-center mb-3">
+			<div class="col-12 col-sm">
+				<div class="row align-items-center numbers">
+					<div class="col col-sm-12 col-md">
+						<p id="out-numCurrent" class="display-1">0</p>
+					</div>
+					<div class="col col-sm-12 col-md">
+						<p class="d-none d-md-block label">Target</p>
+						<p id="out-numTarget" class="display-4">120</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm order-first order-sm-last">
+				<p id="out-wins" class="d-inline d-sm-block"></p>
+				<p class="d-inline-block d-sm-none mx-2"> &mdash; </p>
+				<p id="out-losses" class="d-inline d-sm-block"></p>
+				<p id="out-status">Loading...</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-6 col-md">
+				<img src="assets/img/gem-8.png" id="gem-0" class="img-fluid gem" data-gem="0" />
+			</div>
+			<div class="col-6 col-md">
+				<img src="assets/img/gem-6.png" id="gem-1" class="img-fluid gem" data-gem="1" />
+			</div>
+			<div class="col-6 col-md">
+				<img src="assets/img/gem-1.png" id="gem-2" class="img-fluid gem" data-gem="2" />
+			</div>
+			<div class="col-6 col-md">
+				<img src="assets/img/gem-5.png" id="gem-3" class="img-fluid gem" data-gem="3" />
+			</div>
+		</div>
 		
 	</div>
 
